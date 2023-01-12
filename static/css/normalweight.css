@@ -1,0 +1,40 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
+html, body {
+  font-family: 'Roboto Slab', serif;
+}
+header, section, footer {
+  overflow: hidden;
+  padding: 0 10%;
+}
+header {
+  background: #7D1212;
+  color: #FFF;
+  border-bottom: 2px solid #680707;
+}
+section {
+  background: #FEF;
+  border-top: 2px solid #FFF;
+  border-bottom: 1px solid #CCC;
+  line-height: 175%;
+}
+footer {
+  border-top: 2px solid #680707;
+  background: #7D1212;
+  color: #FFF;
+}
+a {
+  color: inherit;
+  text-decoration: underline;
+}
+a:hover {
+  background: #FFF456;
+}
+header a:hover, footer a:hover {
+  background: none;
+}
+blockquote {
+  border-left: 4px #7D1212 solid;
+  margin-left: 15px;
+  padding: 5px;
+  background: #FDD;
+}
